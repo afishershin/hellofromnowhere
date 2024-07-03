@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HELLO FROM NOWHERE</title>
+<style>
+a {
+	color: inherit;
+    text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+.splash {
+    filter: blur(0px);
+    
+    display: block;
+    position: relative;
+    
+    object-position: 50% 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-container {
+	position: fixed;
+    width: 100%;
+    display: flex;
+    top: 5vh;
+    justify-content: center;
+}
+
+.menu {
+	display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    padding: 0px 20px;
+    background-color: rgba(90,90,90,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 9999px;
+    height: 40px;
+    max-width:100px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+    align: center;
+
+}
+
+.menu-item:hover {
+	transition-timing-function: ease;
+    transition: all 0.3s;
+    flex-grow: 2;
+    color: #ddd;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div>
+  <img class="splash" src="https://github.com/afishershin/hellofromnowhere/blob/main/images/SplashPortrait.JPG?raw=true"></img>
+  <div class="menu-container">
+  	<div class="menu">
+    	<div class="menu-item"><a>Home</a></div>
+        <div class="menu-item"><a href="https://www.instagram.com/hellofromnowhereband/">Instagram</a>          
+</div>  <svg width="90" height="90"><image xlink:href="https://github.com/afishershin/hellofromnowhere/blob/main/icons/instagram.svg"></svg>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
